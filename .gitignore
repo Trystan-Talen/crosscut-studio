@@ -1,0 +1,17 @@
+node_modules/
+dist/
+data/
+.env
+.env.*
+!.env.example
+.DS_Store
+coverage/
+*.log
+*.pid
+tests/.tmp/
+
+/backups/
+/data-*/
+
+# 原站调查截图仅保留在本地，避免公开账号及私有创作记录。
+/docs/evidence/OBS-*.jpg

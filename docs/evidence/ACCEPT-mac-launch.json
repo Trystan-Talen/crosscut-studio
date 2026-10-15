@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-14",
+  "timezone": "America/Los_Angeles",
+  "method": "macOS Finder icon double-click via native UI",
+  "launcher": "<local-delivery>/启动创作台.command",
+  "stopper": "<local-delivery>/停止创作台.command",
+  "firstLaunch": {
+    "running": true,
+    "workerOnline": true,
+    "dataDir": "project/data",
+    "initialSetupVisible": true
+  },
+  "repeatLaunch": {
+    "sameProcess": true,
+    "pid": 68020
+  },
+  "stop": {
+    "running": false,
+    "health": null
+  },
+  "restart": {
+    "running": true,
+    "workerOnline": true
+  },
+  "productionAccountCreated": false,
+  "qaDataDir": "project/data/browser-qa"
+}

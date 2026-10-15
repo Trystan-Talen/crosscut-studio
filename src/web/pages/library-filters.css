@@ -1,0 +1,81 @@
+.collection-toolbar {
+  flex-wrap: wrap;
+}
+.collection-toolbar > .search {
+  flex: 1 1 220px;
+}
+.collection-date-filters {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0 0 22px;
+  color: #526348;
+  font-size: 12px;
+}
+.collection-date-filters label {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.collection-date-filters input {
+  width: auto;
+  min-width: 140px;
+  padding: 8px 10px;
+  font-size: 12px;
+}
+.collection-date-filters small {
+  color: #65715e;
+}
+.radar-dates {
+  margin: 16px 0 0;
+  padding-top: 14px;
+  border-top: 1px solid #e6ebdf;
+}
+.industry-tree .multi-filter-popover {
+  width: min(350px, calc(100vw - 70px));
+}
+.industry-tree .multi-filter-options label > span {
+  flex: 1;
+}
+.industry-tree .multi-filter-options label > small {
+  font-variant-numeric: tabular-nums;
+  color: #65715e;
+}
+.industry-tree .included-by-parent {
+  background: #f6f9ef;
+}
+.radar-linked-tags {
+  margin: 8px 0;
+}
+.radar-detail-tags {
+  margin: 0 0 18px;
+}
+.radar-detail-tags .asset-tags {
+  margin-top: 8px;
+}
+@media (max-width: 760px) {
+  .collection-date-filters {
+    gap: 10px;
+  }
+  .collection-date-filters > span:first-child,
+  .collection-date-filters > small {
+    flex-basis: 100%;
+  }
+  .collection-date-filters label {
+    flex: 1 1 150px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .collection-date-filters input {
+    width: 100%;
+    min-width: 0;
+  }
+  .collection-date-filters > span[aria-hidden] {
+    display: none;
+  }
+  .industry-tree .multi-filter-popover {
+    left: 0;
+    right: auto;
+  }
+}

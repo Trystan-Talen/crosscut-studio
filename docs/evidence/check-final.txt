@@ -1,0 +1,57 @@
+
+> crosscut-studio@0.1.0 check
+> npm run typecheck && npm run format:check && npm test && vite build
+
+
+> crosscut-studio@0.1.0 typecheck
+> tsc --noEmit
+
+
+> crosscut-studio@0.1.0 format:check
+> prettier --check src tests scripts/*.{ts,mjs} *.ts *.json
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> crosscut-studio@0.1.0 test
+> vitest run
+
+
+ RUN  v5.0.4 <local-project>
+
+
+ Test Files  14 passed (14)
+      Tests  156 passed (156)
+   Start at  01:23:50
+   Duration  35.21s (tests 92%, import 7%)
+
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 1692 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/web/index.html                             0.53 kB │ gzip:  0.40 kB
+dist/web/assets/library-filters-CQLtzqJh.css    1.26 kB │ gzip:  0.52 kB
+dist/web/assets/Analysis-D_mX_AYR.css           1.97 kB │ gzip:  0.69 kB
+dist/web/assets/index-B9nybk9L.css             59.89 kB │ gzip: 13.84 kB
+dist/web/assets/arrow-left-CNmhYZJh.js          0.15 kB │ gzip:  0.15 kB
+dist/web/assets/rotate-ccw-B9QdRbCh.js          0.18 kB │ gzip:  0.17 kB
+dist/web/assets/link-2-D1XdCTqC.js              0.23 kB │ gzip:  0.19 kB
+dist/web/assets/pencil-Bb0taL9r.js              0.26 kB │ gzip:  0.21 kB
+dist/web/assets/save-DtoE-Yro.js                0.31 kB │ gzip:  0.21 kB
+dist/web/assets/trash-2-TaXJC3dS.js             0.34 kB │ gzip:  0.24 kB
+dist/web/assets/library-filters-BJ-lP3jX.js     1.53 kB │ gzip:  0.81 kB
+dist/web/assets/workflow-state-yRdqf9Dg.js      2.25 kB │ gzip:  1.22 kB
+dist/web/assets/Projects-TBizvp9B.js            7.77 kB │ gzip:  2.95 kB
+dist/web/assets/Library-AhQWRHhD.js             7.89 kB │ gzip:  3.16 kB
+dist/web/assets/Tasks-BatA9I1q.js              10.44 kB │ gzip:  3.75 kB
+dist/web/assets/Agent-Cp4Rf2cO.js              13.75 kB │ gzip:  5.63 kB
+dist/web/assets/Settings-Du1ED7Hv.js           16.17 kB │ gzip:  5.82 kB
+dist/web/assets/Workflows-D8rMH9zG.js          17.16 kB │ gzip:  6.23 kB
+dist/web/assets/Radar-Cl7-vYZh.js              18.51 kB │ gzip:  6.79 kB
+dist/web/assets/Analysis-BRCMKuaw.js           20.19 kB │ gzip:  6.87 kB
+dist/web/assets/Studio-DvxS0CHP.js             52.89 kB │ gzip: 19.54 kB
+dist/web/assets/schemas-DyWVO4XC.js            90.10 kB │ gzip: 25.51 kB
+dist/web/assets/index-zfKihicq.js             267.59 kB │ gzip: 85.18 kB
+
+✓ built in 227ms

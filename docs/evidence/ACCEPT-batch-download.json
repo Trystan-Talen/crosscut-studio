@@ -1,0 +1,35 @@
+{
+  "entries": [
+    {
+      "name": "batch-status.json",
+      "bytes": 469
+    },
+    {
+      "name": "001-8b7a326e-d943-4e72-990f-3694d6efc902/批量混剪.mp4",
+      "bytes": 73286
+    },
+    {
+      "name": "002-4fb91202-08af-4dde-8e1b-41a0b47c4850/批量混剪.mp4",
+      "bytes": 74791
+    }
+  ],
+  "crcError": null,
+  "batch": {
+    "batchId": "9d1c2856-8169-46ab-9630-542f246ae3ca",
+    "exportedAt": "2026-10-14T07:33:41.254Z",
+    "jobs": [
+      {
+        "id": "8b7a326e-d943-4e72-990f-3694d6efc902",
+        "title": "夏季产品广告 · 浏览器验收 · 1/2",
+        "status": "succeeded",
+        "error": null
+      },
+      {
+        "id": "4fb91202-08af-4dde-8e1b-41a0b47c4850",
+        "title": "夏季产品广告 · 浏览器验收 · 2/2",
+        "status": "succeeded",
+        "error": null
+      }
+    ]
+  }
+}

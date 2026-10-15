@@ -1,0 +1,7 @@
+{
+  "fixture": "人工构造分镜字段、真实本地15秒视频",
+  "expectedEnd": 1.5,
+  "duration": 15,
+  "paused": true,
+  "time": 1.5
+}
